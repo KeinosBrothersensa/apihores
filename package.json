@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-mirall-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp que registra hores mirall via API",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "bdnmedia.cat",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "type": "module"
+}
