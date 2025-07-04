@@ -1,4 +1,10 @@
-import { Client, LocalAuth } from 'whatsapp-web.js';
+// ❌ Incorrecte per a modules CommonJS
+// import { Client, LocalAuth } from 'whatsapp-web.js';
+
+// ✅ Correcte
+import pkg from 'whatsapp-web.js';
+const { Client, LocalAuth } = pkg;
+
 import qrcode from 'qrcode-terminal';
 import fetch from 'node-fetch';
 
